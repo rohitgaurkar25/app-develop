@@ -1,0 +1,95 @@
+
+@media screen and (max-width:375px){
+    .container {
+        width: 100%  !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+      width: 100% !important;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    .container{
+      width: 100% !important;
+    }
+  }
+
+:root {
+    --primary:skyblue;
+   
+}
+.btn-1{
+    width: 150px;border-color: white;height: 50px;background: transparent;border-width: 3px;border-radius: 100px;margin-top: 20px;
+}
+.btn-2{
+    width: 150px;height: 50px;border-radius: 100px;margin-top: 20px;background-color: skyblue; color:white;
+}
+.btn-3{
+    border-radius: 100px;
+    background-color:white ;
+    color: navy;
+}
+
+.header{
+    height: 100%;
+    width: 100%;
+    background-image: url(../image/Group\ 6657@2x.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    overflow:hidden;
+    background-position: right top; 
+}
+.text-align{
+    text-align: right;
+   height: 60px;
+}
+.row-1{
+    margin-left: 100px;
+}
+.row-2{
+    position: absolute;
+    top: 79%;
+    left: 13%;
+    transform: translate(-50%, -50%);color: white;
+}
+.row-3{
+    margin-left: 25%;
+}
+
+ul li::marker {
+    content: url(../image/Ellipse\ 25.png);
+  }
+.center{
+    text-align: center;
+
+
+}
+.container{
+    width:auto;
+}
+.back{
+    height: 80px;
+    background-image: url(../image/Group\ 6662.png);
+    background-repeat: no-repeat;
+    background-size: 85% 100%;
+    background-position: center;
+}
+.containe{
+    height: 800px;
+    width: 100%;
+    background-image: url(../image/Group\ 1815.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow:hidden;
+}
+.footer{
+    background-color: rgb(5, 5, 54);
+    background-image: url(../image/Path\ 200@3x.png);
+    background-repeat: no-repeat;
+    background-size: 40% 80%;
+    background-position: bottom right;
+    height: 100%;
+}
